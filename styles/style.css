@@ -1,13 +1,14 @@
 .topmenu {
-  /*display: inline;*/
   background-color: #333;
+  width: 100%;
   overflow: hidden;
   position: fixed;
-  align-self: center;
-  padding-top: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  /*margin-left: 25%;*/
 }
 .topmenu a {
-  float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -19,29 +20,51 @@
   color: black;
 }
 .topmenu a.active {
-  background-color: #04aa6d;
-  color: white;
+  background-color: white;
+  color: #0d76ba;
 }
 
 body {
-  background-color: #0d76ba;
+  background-color: #FBF8F1;
   /*background-image: url("images/wheelchairs.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: contain;*/
 }
 
+.body {
+  background-color: #0d76ba;
+}
+
 hr {
   /*color: #4C4C6D;*/
   border-style: none;
-  border-top-style: solid;
+  border-top-style: dashed;
   border-color: grey;
-  border-width: 3px;
-  width: 10%;
+  width: 5%;
+  border-width: 5px;
 }
 
+li {
+  text-align: left;
+  font-size: 25px;
+  padding: 5px auto;
+}
+
+.body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .tintero {
   background-color: #CAF0F8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.escritorio {
+  background-color: #9AD0EC;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .cita {
@@ -59,9 +82,20 @@ hr {
 
 .tintero-texto {
   text-align: justify;
+  width: 50%;
+  font-size: 25px;
+  padding: 50px 25% 0 25%;
+}
+
+.escritorio-texto {
+  text-align: justify;
   width: auto;
   font-size: 25px;
-  padding: 50px 500px;
+  padding: 20px 500px 0 500px;
+}
+
+.preguntas {
+  background-color: #9AD0EC;
 }
 
 .wheelchairs-img {
@@ -70,10 +104,11 @@ hr {
 }
 .centered {
   position: absolute;
+  width: 20%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
 }
 
@@ -89,7 +124,7 @@ hr {
   font-size: 5rem;
   /*padding-left: 200px;*/
   padding-right: auto;
-  padding-top: 50px;
+  /*padding-top: 100px;*/
 }
 
 .llamados-h3 {
