@@ -4,30 +4,55 @@
     <meta charset="utf-8">
     <title>Encuentro</title>
     <link rel="stylesheet" href="styles/style.css">
-    <div class="topmenu">
-      <a class="active" href="#Home">Al Encuentro</a>
-      <a href="#escritorio">Escritorio Pastor Jóse</a>
-      <a href="#tintero">Tintero Pastor Brain</a>
-      <a href="#reconcilia">Reconciliación</a>
-      <a href="#cambiar">Quiero Cambiar</a>
-      <a href="#preguntas">Preguntas al Pastor</a>
-      <a href="#habitos">Hábitos de Palabras</a>
-      <a href="#anuncios">Anuncios</a>
-      <a href="#contact">Encuentranos</a>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active">Al Encuentro</a>
+      <div id="myLinks">
+        <a class="active" href="#Home">Home</a>
+        <a href="#escritorio">Escritorio Pastor Jóse</a>
+        <a href="#tintero">Tintero Pastor Brain</a>
+        <a href="#reconcilia">Reconciliación</a>
+        <a href="#cambiar">Quiero Cambiar</a>
+        <a href="#preguntas">Preguntas al Pastor</a>
+        <a href="#habitos">Hábitos de Palabras</a>
+        <a href="#anuncios">Anuncios</a>
+        <a href="#contact">Encuentranos</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-  </head>
+    <!-- End smartphone / tablet look -->
+    </div>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
   <body class="home">
+
     <div class="body">
       <div class="alencuentro-div" id="Home">
         <h1 class="alencuentro-h1">Al Encuentro</h1>
         <h3 class="llamados-h3">"llamados a ser el corazon y las manos de Jesus"</h3>
       </div>
-
+      <div class="centered">
+        Por amor<br> a los discapacitados
+      </div>
       <div class="wheelchairs-div">
         <img class="wheelchairs-img"src="images/wheelchairs.png" alt="" style="width:50%">
-        <div class="centered">
-          Por amor<br> a los discapacitados
-        </div>
+
       </div>
     </div>
 
@@ -132,7 +157,7 @@
         <h2>Quiero Cambiar</h2>
       </div>
       <div class="">
-        <img class="image" src="images/quierocambiar.JPG" alt="">
+        <img class="image" src="images/quierocambiar.jpg" alt="">
       </div>
 
     </div>
@@ -222,7 +247,7 @@
           <h2>Nueva Serie</h2>
         </div>
         <div class="">
-          <img class="image" src="images/nuevaserie.JPG" alt="">
+          <img class="image" src="images/nuevaserie.jpg" alt="">
         </div>
       </div>
       <div class="">
@@ -230,7 +255,7 @@
           <h2>Oportunidades</h2>
         </div>
         <div class="">
-          <img class="image" src="images/oportunidades.JPG" alt="">
+          <img class="image" src="images/oportunidades.jpg" alt="">
         </div>
       </div>
     </div>
@@ -240,7 +265,7 @@
         <h2>Encuentranos</h2>
       </div>
       <div class="">
-        <img class="image" src="images/encuentranos.PNG" alt="" style="margin-bottom: 30px">
+        <img class="image" src="images/encuentranos.png" alt="" style="margin-bottom: 30px">
         <a class="btn" href="janlet.minor@gmail.com">Encuentranos</a>
       </div>
 
